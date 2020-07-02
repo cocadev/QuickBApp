@@ -1,1 +1,1 @@
-# QuickB
+# QuickB React Native Expo App
