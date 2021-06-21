@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Font from 'expo-font';
 import { ActivityIndicator, View, StyleSheet, Alert, KeyboardAvoidingView, Platform, StatusBar } from 'react-native';
-import { AppPermissions } from './src/config/AppPermissions';
+// import { AppPermissions } from './src/config/AppPermissions';
 import MainNavigation from './src/navigation/MainNavigation';
 import _Likes from './src/screens/_Likes';
 import _MisNegocios from './src/screens/_MisNegocios';
@@ -78,25 +78,25 @@ export default class App extends React.Component {
 
     this.setState({ fontLoaded: true });
 
-    AppPermissions.location()
-      .catch(error => {
-        Alert.alert(
-          'Error.', 'Algo salió mal, ayúdanos a mejorar esta aplicación, mándanos un email a contacto@quickb.mx con una captura de pantalla del error. Gracias ... \n\n' + error,
-          [{
-            text: 'OK'
-          }],
-        );
-      });
+    // AppPermissions.location()
+    //   .catch(error => {
+    //     Alert.alert(
+    //       'Error.', 'Algo salió mal, ayúdanos a mejorar esta aplicación, mándanos un email a contacto@quickb.mx con una captura de pantalla del error. Gracias ... \n\n' + error,
+    //       [{
+    //         text: 'OK'
+    //       }],
+    //     );
+    //   });
 
-    AppPermissions.cameraRoll()
-      .catch(error => {
-        Alert.alert(
-          'Error.', 'Algo salió mal, ayúdanos a mejorar esta aplicación, mándanos un email a contacto@quickb.mx con una captura de pantalla del error. Gracias ... \n\n' + error,
-          [{
-            text: 'OK'
-          }],
-        );
-      });
+    // AppPermissions.cameraRoll()
+    //   .catch(error => {
+    //     Alert.alert(
+    //       'Error.', 'Algo salió mal, ayúdanos a mejorar esta aplicación, mándanos un email a contacto@quickb.mx con una captura de pantalla del error. Gracias ... \n\n' + error,
+    //       [{
+    //         text: 'OK'
+    //       }],
+    //     );
+    //   });
   }
 
   render() {
@@ -144,6 +144,7 @@ export default class App extends React.Component {
 
           // <_DropDown /> */
           <MainNavigation />
+          // <_Agregar />
         ) : (
             <View style={styles.appContainer}>
               <ActivityIndicator size="large" />

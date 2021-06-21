@@ -492,7 +492,7 @@ export default class BussinesDetail extends Component {
             </Text>
             <Text type="GeosansLight" style={styles.serviceDescriptionText}>
               {description}
-            }
+            
             </Text>
             <Text type="Caviar_Dreams_Bold" style={styles.subTitleText}>
               Servicios: 
