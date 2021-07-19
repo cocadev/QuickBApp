@@ -1,4 +1,4 @@
-# QuickB React Native Expo App 2
+# QuickB React Native Expo App
 
 <p align="center">A minimal, clean and beautiful mobile app to help people find the foods to delivery and change the world.</p>
 
