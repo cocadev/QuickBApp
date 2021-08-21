@@ -69,7 +69,7 @@
   <kbd>
     <img width="230" style="border-radius: 5px" height="450" src="screenshots/quickb (11).jpg" alt="5">
   </kbd>
-    &nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;
   <kbd>
     <img width="230" style="border-radius: 5px" height="450" src="screenshots/quickb (12).jpg" alt="6">
   </kbd>
