@@ -1,4 +1,4 @@
-# QuickB App 2
+# QuickB App
 
 <p align="center">A minimal, clean and beautiful mobile app to help people find the foods to delivery and change the world.</p>
 
@@ -114,4 +114,4 @@ QuickB features over 300,000 recipes in more than sixty languages from around th
 
 ## :eyes: **Version**
 - [x] React-Native 0.64.2
-- [x] Expo 41
+- [x] Expo 42
